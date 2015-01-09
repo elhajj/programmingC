@@ -14,13 +14,13 @@ int main() {
     
     celsius = lower;	/* initialize celsius */
 	
-    printf( "Celsius \t Fahrenheit\n"); /*print header */
+    printf( "Celsius   Fahrenheit\n"); /*print header */
 
     while (celsius <= upper) { /* loop test: is celsius less than or equal to the upper range? */ 
         
         fahr = (9.0/5.0) * (celsius+32.0); /* if not, then convert celsius to fahr */
 		
-        printf("%3.0f %14.1f\n", celsius, fahr); /* and print result to the screen */
+        printf("%3.0f %11.1f\n", celsius, fahr); /* and print result to the screen */
         
         celsius = celsius + step; /* then add a step */
     }
