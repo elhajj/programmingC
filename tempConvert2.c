@@ -22,7 +22,7 @@ int main() {
 		
         printf("%3.0f %14.1f\n", celsius, fahr); /* and print result to the screen */
         
-        celsius = celsius + step; /* than add a step */
+        celsius = celsius + step; /* then add a step */
     }
     
 }
