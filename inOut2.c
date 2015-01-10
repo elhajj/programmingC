@@ -8,7 +8,7 @@ int main()
 	
 	
 	while ((c = getchar()) != EOF) {
-		printf("Is c = getchar() != EOF? %d\n", c = getchar() != EOF );
+		/* printf("Is c = getchar() != EOF? %d\n", c = getchar() != EOF );  */
 		putchar(c);
 	}
 }
